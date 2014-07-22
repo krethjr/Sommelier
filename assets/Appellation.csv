@@ -1,0 +1,224 @@
+id,Country,region_id,AVA Name2,Common_flg
+208,Albania,7,Zaberzan Skrapar,N
+209,Algeria,8,Chateau Romain,N
+210,Algeria,8,Chateau Tellagh,N
+211,Algeria,8,Coteaux de Mascara,N
+212,Algeria,8,Coteaux de Tlemcen,N
+213,Algeria,8,Coteaux de Zaccar,N
+214,Algeria,8,Cuvee du President,N
+215,Algeria,8,Dahra,N
+216,Algeria,8,Domaine Benchicao,N
+217,Algeria,8,Domaine Djendel,N
+218,Algeria,8,Domaine El Bordj,N
+219,Algeria,8,Domaine Khadra ,N
+220,Algeria,8,Domaine Mamounia ,N
+221,Algeria,8,Domaine Sebra,N
+222,Algeria,8,Medea,N
+223,Algeria,8,Monts du Tessala,N
+155,USA,10,Sonoita,Y
+4,USA,11,Altus,Y
+7,USA,11,Arkansas Mountain,Y
+113,USA,11,"Ozark Mountain [AR,MO,OK]",Y
+1,USA,9,Alexander Valley,Y
+3,USA,9,Alta Mesa,Y
+5,USA,9,Anderson Valley,Y
+189,USA,9,Antelope Valley of the California High Desert,Y
+8,USA,9,Arroyo Grande Valley,Y
+9,USA,9,Arroyo Seco,Y
+10,USA,9,Atlas Peak,Y
+13,USA,9,Ben Lomond Mountain,Y
+14,USA,9,Benmore Valley,Y
+15,USA,9,Bennett Valley,Y
+16,USA,9,Borden Ranch,Y
+17,USA,9,California Shenandoah Valley,Y
+190,USA,9,Calistoga,Y
+18,USA,9,Capay Valley,Y
+19,USA,9,Carmel Valley,Y
+22,USA,9,Central Coast,Y
+24,USA,9,Chalk Hill,Y
+25,USA,9,Chalone,Y
+27,USA,9,Chiles Valley,Y
+28,USA,9,Cienega Valley,Y
+29,USA,9,Clarksburg,Y
+30,USA,9,Clear Lake,Y
+31,USA,9,Clement Hills,Y
+32,USA,9,Cole Ranch,Y
+191,USA,9,Coombsville,Y
+35,USA,9,Cosumnes River,Y
+36,USA,9,Covelo,Y
+37,USA,9,Cucamonga Valley,Y
+39,USA,9,Diablo Grande,Y
+40,USA,9,Diamond Mountain District,Y
+41,USA,9,Dos Rios,Y
+42,USA,9,Dry Creek Valley,Y
+44,USA,9,Dunnigan Hills,Y
+45,USA,9,Edna Valley,Y
+46,USA,9,El Dorado,Y
+49,USA,9,Fair Play,Y
+51,USA,9,Fiddletown,Y
+192,USA,9,Fort Ross-Seaview,Y
+56,USA,9,Green Valley of Russian River Valley,Y
+57,USA,9,Guenoc Valley,Y
+58,USA,9,Hames Valley,Y
+193,USA,9,Happy Canyon of Santa Barbara,Y
+61,USA,9,High Valley,Y
+63,USA,9,Howell Mountain,Y
+194,USA,9,Inwood Valley,Y
+66,USA,9,Jahant,Y
+68,USA,9,Knights Valley,Y
+195,USA,9,Leona Valley,Y
+75,USA,9,Lime Kiln Valley,Y
+77,USA,9,Livermore Valley,Y
+78,USA,9,Lodi,Y
+81,USA,9,Los Carneros,Y
+82,USA,9,Madera,Y
+83,USA,9,Malibu-Newton Canyon,Y
+85,USA,9,McDowell Valley,Y
+87,USA,9,Mendocino,Y
+88,USA,9,Mendocino Ridge,Y
+89,USA,9,Merritt Island,Y
+94,USA,9,Mokelumne River,Y
+95,USA,9,Monterey,Y
+97,USA,9,Mount Harlan,Y
+98,USA,9,Mount Veeder,Y
+99,USA,9,Napa Valley,Y
+101,USA,9,North Coast,Y
+104,USA,9,North Yuba,Y
+106,USA,9,Northern Sonoma,Y
+107,USA,9,Oak Knoll District of Napa Valley,Y
+108,USA,9,Oakville,Y
+114,USA,9,Pacheco Pass,Y
+115,USA,9,Paicines,Y
+116,USA,9,Paso Robles,Y
+196,USA,9,Pine Mountain-Cloverdale Peak,Y
+117,USA,9,Potter Valley,Y
+119,USA,9,Ramona Valley,Y
+122,USA,9,Red Hills Lake County,Y
+124,USA,9,Redwood Valley,Y
+126,USA,9,River Junction,Y
+127,USA,9,Rockpile,Y
+130,USA,9,Russian River Valley,Y
+131,USA,9,Rutherford,Y
+132,USA,9,Saddle Rock Malibu,Y
+133,USA,9,Saint Helena,Y
+134,USA,9,Salado Creek,Y
+135,USA,9,San Antonio Valley,Y
+136,USA,9,San Benito,Y
+137,USA,9,San Bernabe,Y
+138,USA,9,San Francisco Bay,Y
+139,USA,9,San Lucas,Y
+140,USA,9,San Pasqual Valley,Y
+141,USA,9,San Ysidro District,Y
+142,USA,9,Santa Clara Valley,Y
+143,USA,9,Santa Cruz Mountains,Y
+144,USA,9,Santa Lucia Highlands,Y
+145,USA,9,Santa Maria Valley,Y
+146,USA,9,Santa Ynez Valley,Y
+147,USA,9,Seiad Valley,Y
+151,USA,9,Sierra Foothills,Y
+197,USA,9,Sierra Pelona Valley,Y
+152,USA,9,Sloughhouse,Y
+154,USA,9,Solano County Green Valley,Y
+156,USA,9,Sonoma Coast,Y
+157,USA,9,Sonoma Mountain,Y
+158,USA,9,Sonoma Valley,Y
+159,USA,9,South Coast,Y
+162,USA,9,Spring Mountain District,Y
+163,USA,9,Sta. Rita Hills,Y
+164,USA,9,Stags Leap District,Y
+165,USA,9,Suisun Valley,Y
+166,USA,9,Temecula Valley,Y
+171,USA,9,Tracy Hills,Y
+172,USA,9,Trinity Lakes,Y
+180,USA,9,Wild Horse Valley,Y
+182,USA,9,Willow Creek,Y
+186,USA,9,York Mountain,Y
+187,USA,9,Yorkville Highlands,Y
+188,USA,9,Yountville,Y
+55,USA,12,Grand Valley,N
+178,USA,12,West Elks,N
+160,USA,13,"Southeastern New England [CT,MA,RI]",N
+179,USA,13,Western Connecticut Highlands,N
+23,USA,14,"Central Delaware Valley [NJ,PA]",N
+153,USA,15,"Snake River Valley [ID,OR]",N
+149,USA,16,Shawnee Hills,N
+198,USA,17,Indiana Uplands,N
+109,USA,17,"Ohio River Valley [IN,KY,OH,WV]",N
+20,USA,18,Catoctin,N
+38,USA,18,"Cumberland Valley [MD,PA]",N
+76,USA,18,Linganore,N
+84,USA,19,Martha's Vineyard,N
+50,USA,20,Fennville,N
+70,USA,20,Lake Michigan Shore,N
+73,USA,20,Leelanau Peninsula,N
+110,USA,20,Old Mission Peninsula,N
+2,USA,21,Alexandria Lakes,N
+93,USA,22,"Mississippi Delta [LA,MS,TN]",N
+11,USA,23,Augusta,N
+60,USA,23,Hermann,N
+112,USA,23,Ozark Highlands,N
+111,USA,24,Outer Coastal Plain,N
+177,USA,24,Warren Hills,N
+90,USA,25,"Mesilla Valley [NM,TX]",N
+91,USA,25,Middle Rio Grande Valley,N
+92,USA,25,Mimbres Valley,N
+21,USA,26,Cayuga Lake,Y
+52,USA,26,Finger Lakes,Y
+64,USA,26,Hudson River Region,Y
+69,USA,26,"Lake Erie [NY,OH,PA]",Y
+79,USA,26,Long Island,Y
+100,USA,26,Niagara Escarpment,Y
+102,USA,26,North Fork of Long Island,Y
+148,USA,26,Seneca Lake,Y
+59,USA,26,"The Hamptons, Long Island",Y
+199,USA,27,Haw River Valley,N
+200,USA,27,Swan Creek,N
+183,USA,27,Yadkin Valley,N
+54,USA,28,Grand River Valley,N
+65,USA,28,Isle St. George,N
+80,USA,28,Loramie Creek,N
+6,USA,29,Applegate Valley,Y
+26,USA,29,Chehalem Mountains,Y
+33,USA,29,"Columbia Gorge [OR,WA]",Y
+34,USA,29,"Columbia Valley [OR,WA]",Y
+43,USA,29,Dundee Hills,Y
+201,USA,29,Elkton Oregon,Y
+47,USA,29,Eola Amity Hills,Y
+86,USA,29,McMinnville,Y
+121,USA,29,Red Hill Douglas County,Y
+125,USA,29,Ribbon Ridge,Y
+129,USA,29,Rogue Valley,Y
+161,USA,29,Southern Oregon,Y
+173,USA,29,Umpqua Valley,Y
+176,USA,29,"Walla Walla Valley [OR,WA]",Y
+181,USA,29,Williamette Valley,Y
+185,USA,29,Yamhill-Carlton District,Y
+72,USA,30,Lancaster Valley,N
+74,USA,30,Lehigh Valley,N
+12,USA,31,Bell Mountain,N
+48,USA,31,Escondido Valley,N
+53,USA,31,Fredericksburg in the Texas Hill Country,N
+167,USA,31,Texas Davis Mountains,N
+168,USA,31,Texas High Plains,N
+169,USA,31,Texas Hill Country,N
+170,USA,31,Texoma,N
+202,USA,32,Middleburg Virginia,N
+96,USA,32,Monticello,N
+103,USA,32,North Fork of Roanoke,N
+105,USA,32,Northern Neck George Washington Birthplace,N
+128,USA,32,Rocky Knob,N
+150,USA,32,"Shenandoah Valley [VA,WV]",N
+174,USA,32,Virginia's Eastern Shore,N
+203,USA,33,Ancient Lakes of Columbia Valley,Y
+62,USA,33,Horse Heaven Hills,Y
+204,USA,33,Lake Chelan,Y
+205,USA,33,Naches Heights,Y
+118,USA,33,Puget Sound,Y
+120,USA,33,Rattlesnake Hills,Y
+123,USA,33,Red Mountain,Y
+206,USA,33,Snipes Mountain,Y
+175,USA,33,Wahluke Slope,Y
+184,USA,33,Yakima Valley,Y
+67,USA,35,"Kanawha River Valley [OH,WV]",N
+71,USA,34,Lake Wisconsin,N
+207,USA,34,Wisconsin Ledge,N

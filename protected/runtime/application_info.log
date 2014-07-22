@@ -1,0 +1,804 @@
+2014/07/07 19:23:02 [info] [application.security.event] User: >jim< logged out
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (154)
+2014/07/07 19:31:39 [info] [application.security.event] User: >jim< logged in
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (144)
+2014/07/07 19:31:44 [info] [application.security.event] User: >jim< logged out
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (158)
+2014/07/07 19:44:25 [info] [application] [379bnmp277bbvhp9mim27vg3v3][jim][2] $_POST=array (
+  'LoginForm' => 
+  array (
+    'username' => 'jim',
+    'password' => 'fodder',
+    'rememberMe' => '0',
+  ),
+  'yt0' => 'Login',
+)
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => 'f61eilc5vs7ra399bukra9qr66',
+)
+
+$_SESSION=array (
+  'version' => '0.1',
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisSiteAdmin' => true,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarAdmin' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarUser' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__id' => '2',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__name' => 'jim',
+  'a45c3b3f73a155e5eaf9b72fbfcafffclastLogin' => '07/07/14 7:31 PM',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__states' => 
+  array (
+    'lastLogin' => true,
+  ),
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php/site/login',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=f61eilc5vs7ra399bukra9qr66',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '96',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '61688',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/login',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/login',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\login',
+  'PHP_SELF' => '/sommelier/index.php/site/login',
+  'REQUEST_TIME_FLOAT' => 1404762265.689,
+  'REQUEST_TIME' => 1404762265,
+)
+2014/07/07 19:44:25 [info] [application.security.event] [379bnmp277bbvhp9mim27vg3v3][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 19:45:01 [info] [application] [Guest][] User: Guest (ID: )
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => '379bnmp277bbvhp9mim27vg3v3',
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=379bnmp277bbvhp9mim27vg3v3',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '61696',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/logout',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/logout',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\logout',
+  'PHP_SELF' => '/sommelier/index.php/site/logout',
+  'REQUEST_TIME_FLOAT' => 1404762301.424,
+  'REQUEST_TIME' => 1404762301,
+)
+2014/07/07 19:45:01 [info] [application.security.event] [Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 19:45:16 [info] [application] [n8o6b76234cc4665rmmcr3hab7][jim][2] User: jim (ID: 2)
+
+$_POST=array (
+  'LoginForm' => 
+  array (
+    'username' => 'jim',
+    'password' => 'fodder',
+    'rememberMe' => '0',
+  ),
+  'yt0' => 'Login',
+)
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => '379bnmp277bbvhp9mim27vg3v3',
+)
+
+$_SESSION=array (
+  'version' => '0.1',
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisSiteAdmin' => true,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarAdmin' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarUser' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__id' => '2',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__name' => 'jim',
+  'a45c3b3f73a155e5eaf9b72fbfcafffclastLogin' => '07/07/14 7:44 PM',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__states' => 
+  array (
+    'lastLogin' => true,
+  ),
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php/site/login',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=379bnmp277bbvhp9mim27vg3v3',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '96',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '61699',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/login',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/login',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\login',
+  'PHP_SELF' => '/sommelier/index.php/site/login',
+  'REQUEST_TIME_FLOAT' => 1404762316.893,
+  'REQUEST_TIME' => 1404762316,
+)
+2014/07/07 19:45:17 [info] [application.security.event] [n8o6b76234cc4665rmmcr3hab7][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 19:45:36 [info] [application] User: Guest (ID: )
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => 'n8o6b76234cc4665rmmcr3hab7',
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=n8o6b76234cc4665rmmcr3hab7',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '61703',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/logout',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/logout',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\logout',
+  'PHP_SELF' => '/sommelier/index.php/site/logout',
+  'REQUEST_TIME_FLOAT' => 1404762336.522,
+  'REQUEST_TIME' => 1404762336,
+)
+2014/07/07 19:45:36 [info] [application.security.event] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 19:45:48 [info] [application] [3u8p7kfpq345rtou5s1k0vr8m0] User: jim (ID: 2)
+
+$_POST=array (
+  'LoginForm' => 
+  array (
+    'username' => 'jim',
+    'password' => 'fodder',
+    'rememberMe' => '0',
+  ),
+  'yt0' => 'Login',
+)
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => 'n8o6b76234cc4665rmmcr3hab7',
+)
+
+$_SESSION=array (
+  'version' => '0.1',
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisSiteAdmin' => true,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarAdmin' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarUser' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__id' => '2',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__name' => 'jim',
+  'a45c3b3f73a155e5eaf9b72fbfcafffclastLogin' => '07/07/14 7:45 PM',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__states' => 
+  array (
+    'lastLogin' => true,
+  ),
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php/site/login',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=n8o6b76234cc4665rmmcr3hab7',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '96',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '61719',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/login',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/login',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\login',
+  'PHP_SELF' => '/sommelier/index.php/site/login',
+  'REQUEST_TIME_FLOAT' => 1404762348.569,
+  'REQUEST_TIME' => 1404762348,
+)
+2014/07/07 19:45:48 [info] [application.security.event] [3u8p7kfpq345rtou5s1k0vr8m0] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 19:46:01 [info] [application] [Guest][] $_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => '3u8p7kfpq345rtou5s1k0vr8m0',
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=3u8p7kfpq345rtou5s1k0vr8m0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '61732',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/logout',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/logout',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\logout',
+  'PHP_SELF' => '/sommelier/index.php/site/logout',
+  'REQUEST_TIME_FLOAT' => 1404762361.732,
+  'REQUEST_TIME' => 1404762361,
+)
+2014/07/07 19:46:01 [info] [application.security.event] [Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 19:46:07 [info] [application] [jim][2] $_POST=array (
+  'LoginForm' => 
+  array (
+    'username' => 'jim',
+    'password' => 'fodder',
+    'rememberMe' => '0',
+  ),
+  'yt0' => 'Login',
+)
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => '3u8p7kfpq345rtou5s1k0vr8m0',
+)
+
+$_SESSION=array (
+  'version' => '0.1',
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisSiteAdmin' => true,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarAdmin' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarUser' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__id' => '2',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__name' => 'jim',
+  'a45c3b3f73a155e5eaf9b72fbfcafffclastLogin' => '07/07/14 7:45 PM',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__states' => 
+  array (
+    'lastLogin' => true,
+  ),
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php/site/login',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=3u8p7kfpq345rtou5s1k0vr8m0',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '96',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '61732',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/login',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/login',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\login',
+  'PHP_SELF' => '/sommelier/index.php/site/login',
+  'REQUEST_TIME_FLOAT' => 1404762367.142,
+  'REQUEST_TIME' => 1404762367,
+)
+2014/07/07 19:46:07 [info] [application.security.event] [jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:17:28 [info] [application] [Guest][] User: Guest (ID: )
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => '6jmfcmhjaaqnbvufeh87gkm1a7',
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=6jmfcmhjaaqnbvufeh87gkm1a7',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '62350',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/logout',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/logout',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\logout',
+  'PHP_SELF' => '/sommelier/index.php/site/logout',
+  'REQUEST_TIME_FLOAT' => 1404764248.769,
+  'REQUEST_TIME' => 1404764248,
+)
+2014/07/07 20:17:28 [info] [application.security.event] [Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:17:36 [info] [application] [jim][2] User: jim (ID: 2)
+
+$_POST=array (
+  'LoginForm' => 
+  array (
+    'username' => 'jim',
+    'password' => 'fodder',
+    'rememberMe' => '0',
+  ),
+  'yt0' => 'Login',
+)
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => '6jmfcmhjaaqnbvufeh87gkm1a7',
+)
+
+$_SESSION=array (
+  'version' => '0.1',
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisSiteAdmin' => true,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarAdmin' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarUser' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__id' => '2',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__name' => 'jim',
+  'a45c3b3f73a155e5eaf9b72fbfcafffclastLogin' => '07/07/14 7:46 PM',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__states' => 
+  array (
+    'lastLogin' => true,
+  ),
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php/site/login',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=6jmfcmhjaaqnbvufeh87gkm1a7',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '96',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '62350',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/login',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/login',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\login',
+  'PHP_SELF' => '/sommelier/index.php/site/login',
+  'REQUEST_TIME_FLOAT' => 1404764256.419,
+  'REQUEST_TIME' => 1404764256,
+)
+2014/07/07 20:17:36 [info] [application.security.event] [jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:17:44 [info] [application] [Guest][] User: Guest (ID: )
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => 'lj9ie5t1fs5i7tcoate5i76ce5',
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=lj9ie5t1fs5i7tcoate5i76ce5',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '62355',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'GET',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/logout',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/logout',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\logout',
+  'PHP_SELF' => '/sommelier/index.php/site/logout',
+  'REQUEST_TIME_FLOAT' => 1404764264.599,
+  'REQUEST_TIME' => 1404764264,
+)
+2014/07/07 20:17:44 [info] [application.security.event] [Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:18:39 [info] [application] [jim][2] User: jim (ID: 2)
+
+$_POST=array (
+  'LoginForm' => 
+  array (
+    'username' => 'jim',
+    'password' => 'fodder',
+    'rememberMe' => '0',
+  ),
+  'yt0' => 'Login',
+)
+
+$_COOKIE=array (
+  'commentPanelOpen' => 'false',
+  'inDocumentView' => 'false',
+  'contentPanelOpen' => 'false',
+  'guideControlOn' => 'true',
+  'PHPSESSID' => 'lj9ie5t1fs5i7tcoate5i76ce5',
+)
+
+$_SESSION=array (
+  'version' => '0.1',
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisSiteAdmin' => true,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarAdmin' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffcisCellarUser' => false,
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__id' => '2',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__name' => 'jim',
+  'a45c3b3f73a155e5eaf9b72fbfcafffclastLogin' => '07/07/14 8:17 PM',
+  'a45c3b3f73a155e5eaf9b72fbfcafffc__states' => 
+  array (
+    'lastLogin' => true,
+  ),
+)
+
+$_SERVER=array (
+  'HTTP_HOST' => 'localhost',
+  'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.1; WOW64; rv:30.0) Gecko/20100101 Firefox/30.0',
+  'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.5',
+  'HTTP_ACCEPT_ENCODING' => 'gzip, deflate',
+  'HTTP_REFERER' => 'http://localhost/sommelier/index.php/site/login',
+  'HTTP_COOKIE' => 'commentPanelOpen=false; inDocumentView=false; contentPanelOpen=false; guideControlOn=true; PHPSESSID=lj9ie5t1fs5i7tcoate5i76ce5',
+  'HTTP_CONNECTION' => 'keep-alive',
+  'CONTENT_TYPE' => 'application/x-www-form-urlencoded',
+  'CONTENT_LENGTH' => '96',
+  'PATH' => 'C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files\\Intel\\WiFi\\bin\\;C:\\Program Files\\Common Files\\Intel\\WirelessCommon\\;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\Vagrant\\bin;C:\\wamp\\bin\\php\\php5.4.12;C:\\ProgramData\\Composer\\bin;C:\\Program Files\\Oracle\\VirtualBox\\;C:\\Program Files (x86)\\Zorba XQuery Processor 3.0.0\\bin;C:\\Program Files (x86)\\BaseX\\bin;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x86;C:\\Program Files (x86)\\Intel\\OpenCL SDK\\2.0\\bin\\x64;C:\\Program Files (x86)\\QuickTime\\QTSystem\\;C:\\Python34;',
+  'SystemRoot' => 'C:\\Windows',
+  'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe',
+  'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.PY',
+  'WINDIR' => 'C:\\Windows',
+  'SERVER_SIGNATURE' => '',
+  'SERVER_SOFTWARE' => 'Apache/2.4.4 (Win64) PHP/5.4.12',
+  'SERVER_NAME' => 'localhost',
+  'SERVER_ADDR' => '127.0.0.1',
+  'SERVER_PORT' => '80',
+  'REMOTE_ADDR' => '127.0.0.1',
+  'DOCUMENT_ROOT' => 'C:/wamp/www',
+  'REQUEST_SCHEME' => 'http',
+  'CONTEXT_PREFIX' => '',
+  'CONTEXT_DOCUMENT_ROOT' => 'C:/wamp/www',
+  'SERVER_ADMIN' => 'admin@example.com',
+  'SCRIPT_FILENAME' => 'C:/wamp/www/sommelier/index.php',
+  'REMOTE_PORT' => '62384',
+  'GATEWAY_INTERFACE' => 'CGI/1.1',
+  'SERVER_PROTOCOL' => 'HTTP/1.1',
+  'REQUEST_METHOD' => 'POST',
+  'QUERY_STRING' => '',
+  'REQUEST_URI' => '/sommelier/index.php/site/login',
+  'SCRIPT_NAME' => '/sommelier/index.php',
+  'PATH_INFO' => '/site/login',
+  'PATH_TRANSLATED' => 'C:\\wamp\\www\\site\\login',
+  'PHP_SELF' => '/sommelier/index.php/site/login',
+  'REQUEST_TIME_FLOAT' => 1404764319.774,
+  'REQUEST_TIME' => 1404764319,
+)
+2014/07/07 20:18:39 [info] [application.security.event] [jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:20:16 [info] [application.security.event] [Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:20:22 [info] [application.security.event] [dajlhmsf6e0va12dkhu37q8nh3][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:23:46 [info] [application.security.event] [Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:46:44 [info] [application.security.event] [dc2k2mnhv7v89ef3jmckbq5t73][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:46:53 [info] [application.security.event] [dc2k2mnhv7v89ef3jmckbq5t73][Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:48:14 [info] [application.security.event] [tgh2dosbbf7up0hll8fls60pi1][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:48:17 [info] [application.security.event] [Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:48:50 [info] [application.security.event] [3p5ffc35i6oer63qr81ej7nic1][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:48:53 [info] [application.security.event] [3p5ffc35i6oer63qr81ej7nic1][Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:50:08 [info] [application] [tjqaa4dd00vl2n0li17ls5u332][jim][2] User: jim (ID: 2)
+2014/07/07 20:50:08 [info] [application.security.event] [tjqaa4dd00vl2n0li17ls5u332][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:50:20 [info] [application] [tjqaa4dd00vl2n0li17ls5u332][Guest][] User: Guest (ID: )
+2014/07/07 20:50:21 [info] [application.security.event] [tjqaa4dd00vl2n0li17ls5u332][Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:50:42 [info] [application.security.event] [jg87k1hqche42qkpt7nk1b3j00] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:50:48 [info] [application.security.event] [jg87k1hqche42qkpt7nk1b3j00] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:51:04 [info] [application] [q5mgsiah79p7gc7ujnh8iia5o2] User: jim (ID: 2)
+2014/07/07 20:51:04 [info] [application.security.event] [q5mgsiah79p7gc7ujnh8iia5o2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:51:07 [info] [application] [q5mgsiah79p7gc7ujnh8iia5o2] User: Guest (ID: )
+2014/07/07 20:51:07 [info] [application.security.event] [q5mgsiah79p7gc7ujnh8iia5o2] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 20:51:51 [info] [application] [jk0ofegv6rutg6qaq91bnhmq04] User: jim (ID: 2)
+2014/07/07 20:51:51 [info] [application.security.event] [jk0ofegv6rutg6qaq91bnhmq04] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 20:51:55 [info] [application] [jk0ofegv6rutg6qaq91bnhmq04] User: Guest (ID: )
+2014/07/07 20:51:55 [info] [application.security.event] [jk0ofegv6rutg6qaq91bnhmq04] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:04:08 [info] [application] [m8scffbnb189j0ika41s5ok7e3] User: jim (ID: 2)
+2014/07/07 21:04:09 [info] [application.security.event] [m8scffbnb189j0ika41s5ok7e3] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 21:04:27 [info] [application.security.event] [m8scffbnb189j0ika41s5ok7e3] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:04:33 [info] [application.security.event] [nskl257lj36u01uketv51muhc1] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 21:04:37 [info] [application.security.event] [nskl257lj36u01uketv51muhc1] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:05:03 [info] [application] [fn9hetj8j7potghfkerjb5its2] User: jim (ID: 2)
+2014/07/07 21:05:03 [info] [application.security.event] [fn9hetj8j7potghfkerjb5its2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 21:05:06 [info] [application] [fn9hetj8j7potghfkerjb5its2] User: Guest (ID: )
+2014/07/07 21:05:06 [info] [application.security.event] [fn9hetj8j7potghfkerjb5its2] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:05:27 [info] [application.security.event] [9ush6sbs5pbevism8job9pkr04][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 21:05:31 [info] [application.security.event] [9ush6sbs5pbevism8job9pkr04][Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:09:26 [info] [application.security.event] [tearvquu4f9n725q5l7ggchmd3][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 21:09:49 [info] [application.security.event] [tearvquu4f9n725q5l7ggchmd3][Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:18:06 [info] [application.security.event] [lsd7b23al4c24lnevbn53853l2][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 21:18:10 [info] [application.security.event] [lsd7b23al4c24lnevbn53853l2][Guest][] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:19:50 [info] [application.security.event] [9d9nbhkibj0ln9h1k864j9jjk4][jim][2] Login
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (143)
+2014/07/07 21:19:53 [info] [application.security.event] [9d9nbhkibj0ln9h1k864j9jjk4][jim][2] Logout
+in C:\wamp\www\sommelier\protected\controllers\SiteController.php (156)
+2014/07/07 21:34:13 [info] [application.security.event] [3fl9ksvj4dppcbjc5vpdilkc04][jim][2] Login
+2014/07/07 21:34:16 [info] [application.security.event] [3fl9ksvj4dppcbjc5vpdilkc04][jim][2] Logout
+2014/07/07 21:39:54 [info] [application.security.event] [b5pu25gv111402519n76727hm0][jim][2] Login
+2014/07/07 21:40:04 [info] [application.security.event] [b5pu25gv111402519n76727hm0][jim][2] Cellar Created - 4
+2014/07/07 21:40:22 [info] [application.security.event] [b5pu25gv111402519n76727hm0][jim][2] Cellar Destroyed - 4
+2014/07/07 21:42:39 [info] [application.cellar.event] [b5pu25gv111402519n76727hm0][jim][2] Cellar Create ID=5
+2014/07/07 21:42:48 [info] [application.cellar.event] [b5pu25gv111402519n76727hm0][jim][2] Cellar Destroyed ID=5
+2014/07/07 21:42:50 [info] [application.security.event] [b5pu25gv111402519n76727hm0][jim][2] Logout
+2014/07/16 14:10:33 [info] [application.security.event] [rpgnm0f26tmirodgnvui4fctu0][jim][2] Login
+2014/07/16 14:25:37 [info] [application.security.event] [rpgnm0f26tmirodgnvui4fctu0][jim][2] Logout
+2014/07/16 15:23:11 [info] [application.security.event] [jfb1lcooj1o57cc6knq4qhh7g6][jim][2] Login
+2014/07/17 20:25:03 [info] [application.security.event] [2sjkv946h43l6aedqdi9pslvr5][jim][2] Login
+2014/07/17 20:44:56 [info] [application.security.event] [2sjkv946h43l6aedqdi9pslvr5][jim][2] Logout
+2014/07/17 21:00:20 [info] [application.security.event] [bj728i3ovdveikbd755saouqo0][jim][2] Login
+2014/07/18 15:33:16 [info] [application.security.event] [fb330ef5mb66nolam585r9s1o0][jim][2] Login
+2014/07/21 14:09:05 [info] [application.security.event] [9v0fsenn765eh90uef02ovpv93][jim][2] Login

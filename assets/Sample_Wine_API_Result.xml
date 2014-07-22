@@ -1,0 +1,95 @@
+<Catalog xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+	<Status>
+		<Messages xmlns:a="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+		<ReturnCode>0</ReturnCode>
+	</Status>
+	<Products>
+	    <List>
+		<Product>
+			<Id>91856</Id>
+			<Name>RockBare Shiraz 2005</Name>
+			<Url>http://www.wine.com/v6/RockBare-Shiraz-2005/wine/91856/detail.aspx</Url>
+			<Appellation>
+				<Id>9063</Id>
+				<Name>McLaren Vale</Name>
+				<Url>http://www.wine.com/v6/McLaren-Vale/wine/list.aspx?N=7155+108+9063</Url>
+				<Region>
+					<Id>108</Id>
+					<Name>Australia</Name>
+					<Url>http://www.wine.com/v6/Australia/wine/list.aspx?N=7155+108</Url>
+					<Area i:nil="true"/>
+				</Region>
+			</Appellation>
+			<Labels>
+				<Label>
+					<Id>91856m</Id>
+					<Name>thumbnail</Name>
+					<Url>http://cache.wine.com/labels/91856m.jpg</Url>
+				</Label>
+			</Labels>
+			<Type>Wine</Type>
+			<Varietal>
+				<Id>146</Id>
+				<Name>Syrah/Shiraz</Name>
+				<Url>http://www.wine.com/v6/SyrahShiraz/wine/list.aspx?N=7155+124+146</Url>
+				<WineType>
+					<Id>124</Id>
+					<Name>Red Wines</Name>
+					<Url>http://www.wine.com/v6/Red-Wines/wine/list.aspx?N=7155+124</Url>
+				</WineType>
+			</Varietal>
+			<Vineyard>
+				<Id>6283</Id>
+				<Name>RockBare</Name>
+				<Url>http://www.wine.com/v6/RockBare/learnabout.aspx?winery=6092</Url>
+				<ImageUrl>http://cache.wine.com/aboutwine/basics/images/winerypics/6092.jpg</ImageUrl>
+				<GeoLocation>
+					<Latitude>-360</Latitude>
+					<Longitude>-360</Longitude>
+					<Url>http://www.wine.com/v6/aboutwine/mapof.aspx?winery=6092</Url>
+				</GeoLocation>
+			</Vineyard>
+			<Vintage/>
+			<Community>
+				<Reviews>
+					<HighestScore>5</HighestScore>
+					<List/>
+					<Url>http://www.wine.com/v6/RockBare-Shiraz-2005/wine/91856/detail.aspx?pageType=reviews</Url>
+				</Reviews>
+				<Url>http://www.wine.com/v6/RockBare-Shiraz-2005/wine/91856/detail.aspx</Url>
+			</Community>
+			<Description/>
+			<GeoLocation>
+				<Latitude>-360</Latitude>
+				<Longitude>-360</Longitude>
+				<Url>http://www.wine.com/v6/aboutwine/mapof.aspx?winery=6092</Url>
+			</GeoLocation>
+			<PriceMax>19.9900</PriceMax>
+			<PriceMin>9.9900</PriceMin>
+			<PriceRetail>19.0000</PriceRetail>
+			<ProductAttributes>
+				<ProductAttribute>
+					<Id>44</Id>
+					<Name>Screw Cap Wines</Name>
+					<Url>http://www.wine.com/v6/Screw-Cap-Wines/wine/list.aspx?N=7155+44</Url>
+					<ImageUrl>http://cache.wine.com/images/glo_icon_screwcap_big.gif</ImageUrl>
+				</ProductAttribute>
+			</ProductAttributes>
+			<Ratings>
+				<HighestScore>94</HighestScore>
+				<List/>
+			</Ratings>
+			<Retail i:nil="true"/>
+			<Vintages>
+				<List/>
+			</Vintages>
+		</Product>
+		<Product>
+			{MORE PRODUCTS HERE}
+		</Product>
+	    </List>
+	    <Offset>0</Offset>
+	    <Total>6530</Total>
+	    <Url/>
+	</Products>
+</Catalog>
